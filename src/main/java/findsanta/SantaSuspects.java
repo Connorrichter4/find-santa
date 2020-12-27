@@ -24,7 +24,7 @@ public class SantaSuspects {
 			if(null == this.suspects[i]) {
 				continue;
 			}
-			if(this.suspects[i].matches(input)) {
+			if(this.suspects[i].toLowerCase().matches(input.toLowerCase())) {
 				return true;
 			}
 		}

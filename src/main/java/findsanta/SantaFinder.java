@@ -7,17 +7,17 @@ public class SantaFinder {
 	public static void main(String[] args) {
 		
 		SantaSuspects santaSuspects = new SantaSuspects(20);
-		santaSuspects.addSuspects("Bob Bezanga");
-		santaSuspects.addSuspects("Sally Zimmers");
-		santaSuspects.addSuspects("Peter Pinkelton");
-		santaSuspects.addSuspects("Bobby Drop Tables");
-		santaSuspects.addSuspects("Rudolph Rednose");
-		santaSuspects.addSuspects("Bob Ross");
-		santaSuspects.addSuspects("Ubiga Altman");
-		santaSuspects.addSuspects("Tony Ross");
-		santaSuspects.addSuspects("Aaron Rogers");
-		santaSuspects.addSuspects("Chris Cringle");
-		santaSuspects.addSuspects("Doug Dimmadome");
+		santaSuspects.addSuspects("Bob@bezanga.com");
+		santaSuspects.addSuspects("Sally@Zimmers.com");
+		santaSuspects.addSuspects("Peter@pinkelton.com");
+		santaSuspects.addSuspects("Bobby@tables.com");
+		santaSuspects.addSuspects("Rudolph@rednose.com");
+		santaSuspects.addSuspects("Bob@ross.com");
+		santaSuspects.addSuspects("Ubiga@altman.com");
+		santaSuspects.addSuspects("Tony@ross.com");
+		santaSuspects.addSuspects("Aaron@rogers.com");
+		santaSuspects.addSuspects("Chris@cringle.com");
+		santaSuspects.addSuspects("Doug@dimmadome.com");
 		
 		System.out.print("Provide a name to search for: ");
 		Scanner scan = new Scanner(System.in);
