@@ -19,8 +19,24 @@ public class SantaSuspects {
 		}
 	}
 	
+	public boolean foundMatch(String input) {
+		for (int i = 0; i < this.suspects.length; i++) {
+			if(null == this.suspects[i]) {
+				continue;
+			}
+			if(this.suspects[i].matches(input)) {
+				return true;
+			}
+		}
+		
+		return false;
+	}
+	
 	public void printSuspects() {
 		for (int i = 0; i < this.suspects.length; i++) {
+			if(null == this.suspects[i]) {
+				continue;
+			}
 			System.out.println(this.suspects[i]);
 		}
 	}
